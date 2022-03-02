@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.1)
 project(costmap_converter)
-
+add_compile_options(-std=c++11)
 # Set to Release in order to speed up the program significantly
 set(CMAKE_BUILD_TYPE Release) #None, Debug, Release, RelWithDebInfo, MinSizeRel
 ## Find catkin macros and libraries
